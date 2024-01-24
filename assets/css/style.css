@@ -16414,10 +16414,10 @@ a.badge:hover {
 
 @media (min-width: 992px) {
   .card-chat {
-    height: calc(100vh - 5.1125rem - 1.5rem);
+    height: calc(100vh);
   }
   .card-chat-list {
-    height: calc(100vh - 10.112rem - 1.5rem);
+    height: calc(100vh - 5.112rem);
   }
   .chat-conversation-content {
     height: calc(100% - 5.25rem);
