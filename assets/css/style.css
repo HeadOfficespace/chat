@@ -1302,6 +1302,142 @@ progress {
     -webkit-transition: none;
     transition: none;
   }
+
+  .form-control::-webkit-file-upload-button {
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  .form-control::file-selector-button {
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  .form-select {
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  .form-switch .form-check-input {
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  .form-range::-webkit-slider-thumb {
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  .form-range::-moz-range-thumb {
+    -moz-transition: none;
+    transition: none;
+  }
+
+  .form-floating>label {
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  .btn {
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  .fade {
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  .collapsing {
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  .collapsing.collapse-horizontal {
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  .nav-link {
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  .navbar-toggler {
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  .accordion-button {
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  .accordion-button::after {
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  .page-link {
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  .progress-bar {
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  .progress-bar-animated {
+    -webkit-animation: none;
+    animation: none;
+  }
+
+  .modal.fade .modal-dialog {
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  .carousel-item {
+    -webkit-transition: none;
+    transition: none;
+  }
+
+
+  .carousel-fade .active.carousel-item-start,
+  .carousel-fade .active.carousel-item-end {
+    -webkit-transition: none;
+    transition: none;
+  }
+
+
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    -webkit-transition: none;
+    transition: none;
+  }
+
+
+  .spinner-border,
+  .spinner-grow {
+    --bs-spinner-animation-speed: 1.5s;
+  }
+
+  .offcanvas {
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  .icon-link>.bi {
+    -webkit-transition: none;
+    transition: none;
+  }
 }
 
 .form-control[type=file] {
@@ -1397,17 +1533,6 @@ progress {
   transition: all 0.3s ease-in-out;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .form-control::-webkit-file-upload-button {
-    -webkit-transition: none;
-    transition: none;
-  }
-
-  .form-control::file-selector-button {
-    -webkit-transition: none;
-    transition: none;
-  }
-}
 
 .form-control:hover:not(:disabled):not([readonly])::-webkit-file-upload-button {
   background-color: var(--bs-secondary-bg);
@@ -1546,12 +1671,6 @@ textarea.form-control-lg {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .form-select {
-    -webkit-transition: none;
-    transition: none;
-  }
-}
 
 .form-select:focus {
   border-color: #0f6fec;
@@ -1708,12 +1827,6 @@ textarea.form-control-lg {
   transition: background-position 0.15s ease-in-out;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .form-switch .form-check-input {
-    -webkit-transition: none;
-    transition: none;
-  }
-}
 
 .form-switch .form-check-input:focus {
   --bs-form-switch-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%230f6fec'/%3e%3c/svg%3e");
@@ -1799,13 +1912,6 @@ textarea.form-control-lg {
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .form-range::-webkit-slider-thumb {
-    -webkit-transition: none;
-    transition: none;
-  }
-}
-
 .form-range::-webkit-slider-thumb:active {
   background-color: #b7d4f9;
 }
@@ -1832,12 +1938,7 @@ textarea.form-control-lg {
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .form-range::-moz-range-thumb {
-    -moz-transition: none;
-    transition: none;
-  }
-}
+
 
 .form-range::-moz-range-thumb:active {
   background-color: #b7d4f9;
@@ -1898,12 +1999,6 @@ textarea.form-control-lg {
   transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out, -webkit-transform 0.1s ease-in-out;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .form-floating>label {
-    -webkit-transition: none;
-    transition: none;
-  }
-}
 
 .form-floating>.form-control,
 .form-floating>.form-control-plaintext {
@@ -2410,12 +2505,6 @@ textarea.form-control.is-invalid {
   transition: all 0.3s ease-in-out;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .btn {
-    -webkit-transition: none;
-    transition: none;
-  }
-}
 
 .btn:hover {
   color: var(--bs-btn-hover-color);
@@ -2791,12 +2880,6 @@ fieldset:disabled .btn {
   transition: opacity 0.15s linear;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .fade {
-    -webkit-transition: none;
-    transition: none;
-  }
-}
 
 .fade:not(.show) {
   opacity: 0;
@@ -2813,12 +2896,6 @@ fieldset:disabled .btn {
   transition: height 0.35s ease;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .collapsing {
-    -webkit-transition: none;
-    transition: none;
-  }
-}
 
 .collapsing.collapse-horizontal {
   width: 0;
@@ -2827,12 +2904,6 @@ fieldset:disabled .btn {
   transition: width 0.35s ease;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .collapsing.collapse-horizontal {
-    -webkit-transition: none;
-    transition: none;
-  }
-}
 
 .dropup,
 .dropend,
@@ -3252,13 +3323,6 @@ fieldset:disabled .btn {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .nav-link {
-    -webkit-transition: none;
-    transition: none;
-  }
-}
-
 .nav-link:hover,
 .nav-link:focus {
   color: var(--bs-nav-link-hover-color);
@@ -3519,12 +3583,6 @@ fieldset:disabled .btn {
   transition: var(--bs-navbar-toggler-transition);
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .navbar-toggler {
-    -webkit-transition: none;
-    transition: none;
-  }
-}
 
 .navbar-toggler:hover {
   text-decoration: none;
@@ -3852,12 +3910,6 @@ fieldset:disabled .btn {
   transition: var(--bs-accordion-transition);
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .accordion-button {
-    -webkit-transition: none;
-    transition: none;
-  }
-}
 
 .accordion-button:not(.collapsed) {
   color: var(--bs-accordion-active-color);
@@ -3886,12 +3938,6 @@ fieldset:disabled .btn {
   transition: var(--bs-accordion-btn-icon-transition);
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .accordion-button::after {
-    -webkit-transition: none;
-    transition: none;
-  }
-}
 
 .accordion-button:hover {
   z-index: 2;
@@ -4055,13 +4101,6 @@ fieldset:disabled .btn {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .page-link {
-    -webkit-transition: none;
-    transition: none;
-  }
 }
 
 .page-link:hover {
@@ -4294,12 +4333,6 @@ fieldset:disabled .btn {
   transition: var(--bs-progress-bar-transition);
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .progress-bar {
-    -webkit-transition: none;
-    transition: none;
-  }
-}
 
 .progress-bar-striped {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -4319,12 +4352,6 @@ fieldset:disabled .btn {
   animation: 1s linear infinite progress-bar-stripes;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .progress-bar-animated {
-    -webkit-animation: none;
-    animation: none;
-  }
-}
 
 .list-group {
   --bs-list-group-color: var(--bs-gray-600);
@@ -4754,13 +4781,6 @@ fieldset:disabled .btn {
   transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
   -webkit-transform: translate(0, -50px);
   transform: translate(0, -50px);
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .modal.fade .modal-dialog {
-    -webkit-transition: none;
-    transition: none;
-  }
 }
 
 .modal.show .modal-dialog {
@@ -5390,13 +5410,6 @@ fieldset:disabled .btn {
   transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .carousel-item {
-    -webkit-transition: none;
-    transition: none;
-  }
-}
-
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev {
@@ -5438,15 +5451,6 @@ fieldset:disabled .btn {
   transition: opacity 0s 0.6s;
 }
 
-@media (prefers-reduced-motion: reduce) {
-
-  .carousel-fade .active.carousel-item-start,
-  .carousel-fade .active.carousel-item-end {
-    -webkit-transition: none;
-    transition: none;
-  }
-}
-
 .carousel-control-prev,
 .carousel-control-next {
   position: absolute;
@@ -5471,15 +5475,6 @@ fieldset:disabled .btn {
   opacity: 0.5;
   -webkit-transition: opacity 0.15s ease;
   transition: opacity 0.15s ease;
-}
-
-@media (prefers-reduced-motion: reduce) {
-
-  .carousel-control-prev,
-  .carousel-control-next {
-    -webkit-transition: none;
-    transition: none;
-  }
 }
 
 .carousel-control-prev:hover,
@@ -5567,12 +5562,6 @@ fieldset:disabled .btn {
   transition: opacity 0.6s ease;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .carousel-indicators [data-bs-target] {
-    -webkit-transition: none;
-    transition: none;
-  }
-}
 
 .carousel-indicators .active {
   opacity: 1;
@@ -5710,14 +5699,6 @@ fieldset:disabled .btn {
 .spinner-grow-sm {
   --bs-spinner-width: 1rem;
   --bs-spinner-height: 1rem;
-}
-
-@media (prefers-reduced-motion: reduce) {
-
-  .spinner-border,
-  .spinner-grow {
-    --bs-spinner-animation-speed: 1.5s;
-  }
 }
 
 .offcanvas,
@@ -6239,13 +6220,6 @@ fieldset:disabled .btn {
   transition: var(--bs-offcanvas-transition);
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .offcanvas {
-    -webkit-transition: none;
-    transition: none;
-  }
-}
-
 .offcanvas.offcanvas-start {
   top: 0;
   left: 0;
@@ -6589,12 +6563,6 @@ fieldset:disabled .btn {
   transition: 0.2s ease-in-out transform;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .icon-link>.bi {
-    -webkit-transition: none;
-    transition: none;
-  }
-}
 
 .icon-link-hover:hover>.bi,
 .icon-link-hover:focus-visible>.bi {
